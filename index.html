@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RhoSpace — Tom Anderson</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Announcement Bar -->
+  <div class="announcement-bar">
+    <span>NEW: RhoSpace milestone badges are here. <a href="#">Set up your profile today →</a></span>
+  </div>
+
+  <!-- Header / Nav -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo">RhoSpace</div>
+      <nav class="site-nav">
+        <a href="#">Home</a>
+        <a href="#">Browse</a>
+        <a href="#">Search</a>
+        <a href="#">Invite</a>
+        <a href="#">Mail</a>
+        <a href="#">Blog</a>
+        <a href="#">Favorites</a>
+        <a href="#">Forum</a>
+        <a href="#">Groups</a>
+        <a href="#">Events</a>
+        <a href="#">Directory</a>
+      </nav>
+      <div class="header-actions">
+        <a href="#" class="btn-login">Login</a>
+        <a href="#" class="btn-primary">Sign Up</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Sub Nav (logged-in state) -->
+  <div class="sub-nav">
+    <div class="sub-nav-inner">
+      <span>Hello, <strong>Tom</strong></span>
+      <div class="sub-nav-links">
+        <a href="#">My Profile</a>
+        <a href="#">My Mail <span class="badge">3</span></a>
+        <a href="#">My Friends</a>
+        <a href="#">My Settings</a>
+        <a href="#">Logout</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <div class="profile-container">
+
+      <!-- ── LEFT COLUMN ── -->
+      <aside class="profile-left">
+
+        <div class="profile-photo-card">
+          <div class="profile-photo-placeholder">
+            <span>TOM</span>
+          </div>
+          <div class="photo-links">
+            <a href="#">View Photos (47)</a>
+            <a href="#">View Videos (3)</a>
+          </div>
+        </div>
+
+        <div class="network-status">
+          <span class="status-dot online"></span> Online Now
+        </div>
+
+        <div class="contact-box">
+          <h4>Contacting Tom</h4>
+          <div class="contact-actions">
+            <a href="#" class="contact-btn">✉&nbsp; Send Message</a>
+            <a href="#" class="contact-btn">＋&nbsp; Add to Friends</a>
+            <a href="#" class="contact-btn">★&nbsp; Add to Favorites</a>
+            <a href="#" class="contact-btn">⊘&nbsp; Block User</a>
+            <a href="#" class="contact-btn">⚑&nbsp; Report</a>
+          </div>
+        </div>
+
+        <div class="network-info">
+          <h4>Tom's Network</h4>
+          <ul>
+            <li><strong>376</strong> Friends</li>
+            <li><strong>24</strong> Comments</li>
+            <li>Last Login: <strong>Today</strong></li>
+            <li>Member Since: <strong>Jan 2026</strong></li>
+          </ul>
+        </div>
+
+        <div class="profile-stats">
+          <h4>Profile Views</h4>
+          <div class="stat-number">1,247</div>
+          <small>since joining</small>
+        </div>
+
+      </aside>
+
+      <!-- ── CENTER COLUMN ── -->
+      <section class="profile-center">
+
+        <!-- Profile Header -->
+        <div class="profile-header-card">
+          <h1 class="profile-name">Tom Anderson</h1>
+          <p class="extended-network">Tom is in your <a href="#">extended network</a></p>
+          <div class="profile-meta">
+            <span>💼 Head of Product</span>
+            <span>🏢 Engineering</span>
+            <span>📍 New York, NY</span>
+            <span>🎂 Member since Jan 2026</span>
+          </div>
+        </div>
+
+        <!-- Blog / Blurb -->
+        <div class="profile-section">
+          <h3 class="section-title">Tom's Latest Blog Entry</h3>
+          <div class="blog-entry">
+            <p class="blog-date">Posted: March 10, 2026</p>
+            <h4>Excited to announce our Q1 product launch!</h4>
+            <p>We've been heads down for weeks and I'm thrilled to finally share what we've been building. The new spend analytics dashboard is live for all users starting today. Can't wait to hear your feedback!</p>
+            <a href="#" class="read-more">Read More »</a>
+          </div>
+          <div class="blog-subscribe">
+            <a href="#">Subscribe to Tom's Blog</a>
+          </div>
+        </div>
+
+        <!-- About + Milestones -->
+        <div class="profile-two-col">
+          <div class="profile-section half">
+            <h3 class="section-title">About Tom</h3>
+            <table class="info-table">
+              <tr><td class="label">Role:</td><td>Head of Product</td></tr>
+              <tr><td class="label">Dept:</td><td>Engineering</td></tr>
+              <tr><td class="label">Location:</td><td>New York, NY</td></tr>
+              <tr><td class="label">Email:</td><td><a href="#">tom@rho.co</a></td></tr>
+              <tr><td class="label">Slack:</td><td>@tom</td></tr>
+              <tr><td class="label">LinkedIn:</td><td><a href="#">/in/tomanderson</a></td></tr>
+            </table>
+          </div>
+
+          <div class="profile-section half">
+            <h3 class="section-title">Milestones</h3>
+            <ul class="milestone-list">
+              <li>
+                <span class="milestone-badge">🏆</span>
+                <div>
+                  <strong>Promoted to Head of Product</strong>
+                  <small>January 2026</small>
+                </div>
+              </li>
+              <li>
+                <span class="milestone-badge">🎉</span>
+                <div>
+                  <strong>3-Year Work Anniversary</strong>
+                  <small>December 2025</small>
+                </div>
+              </li>
+              <li>
+                <span class="milestone-badge">📜</span>
+                <div>
+                  <strong>Certified Scrum Master</strong>
+                  <small>September 2025</small>
+                </div>
+              </li>
+              <li>
+                <span class="milestone-badge">🚀</span>
+                <div>
+                  <strong>Led Q3 Platform Launch</strong>
+                  <small>August 2025</small>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Interests -->
+        <div class="profile-section">
+          <h3 class="section-title">Tom's Interests</h3>
+          <div class="interests-grid">
+            <div class="interest-category">
+              <h5>General</h5>
+              <p>Product strategy, FinTech, hiking, coffee brewing, Formula 1</p>
+            </div>
+            <div class="interest-category">
+              <h5>Music</h5>
+              <p>Radiohead, Tame Impala, jazz piano, live concerts</p>
+            </div>
+            <div class="interest-category">
+              <h5>Books</h5>
+              <p>The Mom Test, Thinking Fast and Slow, Dune</p>
+            </div>
+            <div class="interest-category">
+              <h5>Heroes</h5>
+              <p>Alan Turing, Steve Jobs, my mom</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Comments -->
+        <div class="profile-section">
+          <h3 class="section-title">
+            Tom's Comments
+            <span class="pill">24 comments</span>
+          </h3>
+          <div class="comment-box-form">
+            <textarea placeholder="Leave a comment for Tom..."></textarea>
+            <button class="btn-primary small">Post Comment</button>
+          </div>
+          <div class="comments-list">
+            <div class="comment">
+              <div class="comment-avatar teal">SK</div>
+              <div class="comment-content">
+                <strong><a href="#">Sarah K.</a></strong>
+                <span class="comment-date">March 11, 2026</span>
+                <p>Congrats on the launch Tom! The new dashboard is incredible 🎉</p>
+              </div>
+            </div>
+            <div class="comment">
+              <div class="comment-avatar dark">JR</div>
+              <div class="comment-content">
+                <strong><a href="#">James R.</a></strong>
+                <span class="comment-date">March 10, 2026</span>
+                <p>Great working with you on Q1. Can't wait to see what Q2 brings!</p>
+              </div>
+            </div>
+            <div class="comment">
+              <div class="comment-avatar mid">AL</div>
+              <div class="comment-content">
+                <strong><a href="#">Amy L.</a></strong>
+                <span class="comment-date">March 9, 2026</span>
+                <p>Your session at the all-hands was the highlight. Slides were 🔥</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- ── RIGHT COLUMN ── -->
+      <aside class="profile-right">
+
+        <!-- Online Now -->
+        <div class="widget">
+          <h4 class="widget-title">Online Now <span class="pill">12</span></h4>
+          <div class="online-friends">
+            <div class="online-friend">
+              <div class="mini-avatar teal">SK</div>
+              <span>Sarah K.</span>
+              <span class="status-dot online"></span>
+            </div>
+            <div class="online-friend">
+              <div class="mini-avatar dark">MT</div>
+              <span>Mike T.</span>
+              <span class="status-dot online"></span>
+            </div>
+            <div class="online-friend">
+              <div class="mini-avatar mid">AL</div>
+              <span>Amy L.</span>
+              <span class="status-dot away"></span>
+            </div>
+            <div class="online-friend">
+              <div class="mini-avatar teal">RG</div>
+              <span>Ryan G.</span>
+              <span class="status-dot online"></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Top Friends -->
+        <div class="widget">
+          <h4 class="widget-title">Tom's Top Friends <span class="pill">376</span></h4>
+          <div class="friends-grid">
+            <a href="#" class="friend-thumb">
+              <div class="friend-avatar teal">S</div>
+              <span>Sarah</span>
+            </a>
+            <a href="#" class="friend-thumb">
+              <div class="friend-avatar dark">J</div>
+              <span>James</span>
+            </a>
+            <a href="#" class="friend-thumb">
+              <div class="friend-avatar mid">A</div>
+              <span>Amy</span>
+            </a>
+            <a href="#" class="friend-thumb">
+              <div class="friend-avatar dark">M</div>
+              <span>Mike</span>
+            </a>
+            <a href="#" class="friend-thumb">
+              <div class="friend-avatar teal">L</div>
+              <span>Lisa</span>
+            </a>
+            <a href="#" class="friend-thumb">
+              <div class="friend-avatar mid">R</div>
+              <span>Ryan</span>
+            </a>
+            <a href="#" class="friend-thumb">
+              <div class="friend-avatar dark">K</div>
+              <span>Kate</span>
+            </a>
+            <a href="#" class="friend-thumb">
+              <div class="friend-avatar mid">D</div>
+              <span>Dan</span>
+            </a>
+          </div>
+          <a href="#" class="view-all-link">View All Friends »</a>
+        </div>
+
+        <!-- Mood -->
+        <div class="widget">
+          <h4 class="widget-title">Tom's Mood</h4>
+          <div class="mood-display">
+            <span class="mood-emoji">🚀</span>
+            <span>Excited — shipping things!</span>
+          </div>
+        </div>
+
+        <!-- Groups -->
+        <div class="widget">
+          <h4 class="widget-title">Tom's Groups</h4>
+          <ul class="groups-list">
+            <li><a href="#">Product &amp; Design @ Rho</a></li>
+            <li><a href="#">NYC Office</a></li>
+            <li><a href="#">FinTech Enthusiasts</a></li>
+            <li><a href="#">Coffee Aficionados ☕</a></li>
+          </ul>
+        </div>
+
+      </aside>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-logo">RhoSpace</div>
+      <div class="footer-links">
+        <a href="#">About</a>
+        <a href="#">FAQ</a>
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+        <a href="#">Safety Tips</a>
+        <a href="#">Contact Rho</a>
+      </div>
+      <p class="footer-copy">© 2026 RhoSpace · An internal Rho platform</p>
+    </div>
+  </footer>
+
+</body>
+</html>
